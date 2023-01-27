@@ -1,8 +1,4 @@
-# DApp Scaffold React Native
-
 ## Getting Started
-
-This is a [React Native](https://reactnative.dev) project based on the [React Native TypeScript template](https://github.com/react-native-community/react-native-template-typescript).
 
 ## Installation
 

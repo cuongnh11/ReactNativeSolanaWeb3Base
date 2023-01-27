@@ -1,8 +1,5 @@
-import React, {useRef} from 'react';
-import {SafeAreaView, ScrollView, StatusBar} from 'react-native';
-import {Header} from './components';
-import {AccountProvider, ConnectionProvider} from './providers';
-import {Wallet} from './screens';
+import React, {useRef} from "react";
+import {SafeAreaView, ScrollView, StatusBar, Text, View} from "react-native";
 
 export const App = () => {
   const scrollViewRef = useRef<null | ScrollView>(null);
@@ -10,16 +7,13 @@ export const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <Header />
       <SafeAreaView>
         <ScrollView
           ref={ref => (scrollViewRef.current = ref)}
           contentInsetAdjustmentBehavior="automatic">
-          <AccountProvider>
-            <ConnectionProvider>
-              <Wallet />
-            </ConnectionProvider>
-          </AccountProvider>
+          <View>
+            <Text>Hello World</Text>
+          </View>
         </ScrollView>
       </SafeAreaView>
     </>
