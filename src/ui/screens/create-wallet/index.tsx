@@ -1,8 +1,8 @@
 import React from "react";
 import {Text, View, Button} from "react-native";
 import {createNativeStackNavigator} from "@react-navigation/native-stack";
-import {CreateWalletStackParamList} from "../../../types/root-stacks";
 import {useNavigation} from "@react-navigation/native";
+import {CreateWalletStackParamList} from "@/types/root-stacks";
 
 const Stack = createNativeStackNavigator<CreateWalletStackParamList>();
 

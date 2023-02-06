@@ -1,6 +1,6 @@
 import {createNativeStackNavigator} from "@react-navigation/native-stack";
-import {RootStackParamList} from "../../types/root-stacks";
-import {CreateWalletScreen, WelcomeScreens} from "../screens";
+import {CreateWalletScreen, WelcomeScreens} from "@/ui/screens";
+import {RootStackParamList} from "@/types/root-stacks";
 
 const RootStack = createNativeStackNavigator<RootStackParamList>();
 
