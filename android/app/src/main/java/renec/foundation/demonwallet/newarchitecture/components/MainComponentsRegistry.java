@@ -1,4 +1,4 @@
-package com.solanadappscaffold.newarchitecture.components;
+package renec.foundation.demonwallet.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

@@ -1,4 +1,4 @@
-package com.solanadappscaffold.newarchitecture;
+package renec.foundation.demonwallet.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.solanadappscaffold.BuildConfig;
-import com.solanadappscaffold.newarchitecture.components.MainComponentsRegistry;
-import com.solanadappscaffold.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import renec.foundation.demonwallet.BuildConfig;
+import renec.foundation.demonwallet.newarchitecture.components.MainComponentsRegistry;
+import renec.foundation.demonwallet.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 
